@@ -35,8 +35,6 @@ def get_current_time(timezone: str = 'Asia/Kolkata') -> str:
     return now.strftime('%Y-%m-%d %H:%M:%S %Z')
 
 
-import requests
-from urllib.parse import quote
 
 @tool
 def get_weather(city: str) -> str:
